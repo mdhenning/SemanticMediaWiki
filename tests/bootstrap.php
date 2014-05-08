@@ -42,6 +42,7 @@ function runTestAutoLoader() {
 	$autoLoader->addPsr4( 'SMW\\Tests\\Regression\\', __DIR__ . '/phpunit/Regression' );
 	$autoLoader->addPsr4( 'SMW\\Tests\\System\\', __DIR__ . '/phpunit/System' );
 	$autoLoader->addPsr4( 'SMW\\Tests\\Util\\', __DIR__ . '/phpunit/Util' );
+	$autoLoader->addPsr4( 'SMW\\Tests\\Reporter\\', __DIR__ . '/phpunit/includes/Reporter' );
 
 	return true;
 }
